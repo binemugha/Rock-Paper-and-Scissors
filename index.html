@@ -2,7 +2,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1">
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/style.css">
   <title>Rock, Paper and Scissors</title>
@@ -10,11 +10,14 @@
 
 <body>
   <div class="container-3">
-    <h2>Rock,Paper and Scissors</h2>
+    <h1>Choose either Rock, Paper or Scissors</h1>
+    <p class="rock">Rock</p>
+    <p class="paper">Paper</p>
+    <p class="scissors">Scissors</p>
     <div class="flexbox-rps" id="flexbox-rps-div">
-      <img id="rock" src="images/rock.jpeg" width="150" height="150" alt="" onclick="rpsGame(this)">
-      <img id="paper" src="images/paper.jpeg" width="150" height="150" alt="" onclick="rpsGame(this)">
-      <img id="scissors" src="images/scissors.jpeg" width="150" height="150" alt="" onclick="rpsGame(this)">
+      <img id="rock" src="images/rock.png" width="150" height="150" alt="" onclick="rpsGame(this)">
+      <img id="paper" src="images/paper.png" width="150" height="150" alt="" onclick="rpsGame(this)">
+      <img id="scissors" src="images/scissors.png" width="200" height="130" alt="" onclick="rpsGame(this)">
     </div>
 
     <div style="height: 150px;"></div>
@@ -23,7 +26,7 @@
     </div>
   </div>
 
-  <div style="height: 350px;"></div>
+  <!-- <div style="height: 350px;"></div> -->
   <script src="js/home.js"></script>
 </body>
 

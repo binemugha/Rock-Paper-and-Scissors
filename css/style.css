@@ -1,7 +1,6 @@
 .container-3{
+    height:33vh;
     border: 1px solid black;
-    width: 90%;
-    height: 100%;
     margin: 0 auto;
     background-color: black;
     text-align: center;
@@ -16,9 +15,9 @@
     border: 1px solid black;
 }
 button{
-    width: 150px;
-    height: 50px;
-    background-color: #CCCC;
+    width: 100px;
+    height: 100px;
+    /* background-color: #CCCC; */
     border-radius: 20%
 
 }
