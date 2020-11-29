@@ -1,13 +1,9 @@
-
-
-/**Challenge-3**/
-
 .container-3{
     border: 1px solid black;
-    width: 75%;
-    height: 80%;
+    width: 90%;
+    height: 100%;
     margin: 0 auto;
-    background-color: grey;
+    background-color: black;
     text-align: center;
 }
 .flexbox-rps img:hover{
@@ -22,7 +18,7 @@
 button{
     width: 150px;
     height: 50px;
-    background-color: rgb(10,10,250);
+    background-color: #CCCC;
+    border-radius: 20%
 
 }
- 
