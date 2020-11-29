@@ -35,13 +35,13 @@ function decideWinner(yourChoice, computerChoice){
 
 function finalMessage([yourScore, computerScore]){
     if(yourScore === 0){
-        return{'message': 'you lost!', "color": "red"};
+        return{'message': 'You lost!', "color": "red"};
     }
     else if(yourScore ===0.5){
-        return{'message': 'you tied!', 'color': "yellow"};
+        return{'message': 'You tied!', 'color': "yellow"};
     }
     else{
-        return{'message': 'you won!', 'color': 'green'};
+        return{'message': 'You won!', 'color': 'green'};
     }
 }
 
